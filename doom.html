@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Doom</title>
+</head>
+<body>
+
+    <div class  = "hero">
+        <nav class="navigasi1">
+          <h2 class="logo">Design<span>X</span></h2>
+          <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="profil.html">Profil</a></li>
+              <li><a href="layout.html">Layout</a></li>
+              <li><a href="doom.html">Doom</a></li>
+            </ul>
+          </nav>
+
+          <div class="header">
+            <h1 class = "tulisan">Welcome to My Website!</h1>
+        </div>
+
+       <div class="container2">
+        <div class="sidebar">
+            <input type="text" id="colorInput" placeholder="Masukkan nama warna (dlm Inggris)">
+            <button onclick="changeColor()">Ubah Warna</button>
+            <button onclick="addColor()">Tambah Warna Baru</button>
+            <button onclick="addFooter()">Tambah Footer</button>
+        </div>
+        <div class="main-content">
+            <table id="colorTable">
+                <tr>
+                    <th>Color</th>
+                    <th>Color Name</th>
+                </tr>
+                <tr>
+                    <td style="background-color: red;"></td>
+                    <td>Red</td>
+                </tr>
+                <tr>
+                    <td style="background-color: blue;"></td>
+                    <td>Blue</td>
+                </tr>
+                <tr>
+                    <td style="background-color: yellow;"></td>
+                    <td>Yellow</td>
+                </tr>
+                <tr>
+                    <td style="background-color: purple;"></td>
+                    <td>Purple</td>
+                </tr>
+                <tr>
+                    <td style="background-color: pink;"></td>
+                    <td>Pink</td>
+                </tr>
+            </table>
+        </div>
+    
+        <footer id="footer2"></footer>
+  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
